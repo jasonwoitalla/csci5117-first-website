@@ -3,17 +3,22 @@ html, body, head {
     margin: 0;
 }
 
-h1 {
-    color: white;
-}
-
 .header {
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: rgb(22, 134, 221);
+    color: white;
+    padding-right: 50px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .header h1 {
+    color: white;
     margin-left: 40px;
 }
 
